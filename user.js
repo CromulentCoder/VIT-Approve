@@ -2,7 +2,7 @@ const Sequelize = require('sequelize');
 const bcrypt = require('bcryptjs');
 
 // create a sequelize instance with our local mysql database information.
-const sequelize = new Sequelize('iwpproject', 'root', '',{
+const sequelize = new Sequelize('your-database', 'your-username', 'your-password',{
     host     : 'localhost',
     dialect : 'mysql',
     "operatorsAliases": false
