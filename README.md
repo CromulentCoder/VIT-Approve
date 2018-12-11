@@ -8,10 +8,24 @@ The aim of this project was to collect user data about various services provided
 This project utilizes the following technologies:
 - Node.js with Express
 - Mustache template engine
-- MySQL Database
+- Postgres Databse
 - HTML
 - CSS
 - Javascript and javascript libraries
+
+## Features
+The app provides the following features:
+- Secure login
+- Personalized dashboards
+- View graphs on parameters such as distance from main gate, cleanliness, infrastructure etc.
+- Add your own responses for hostel
+- Add your own responses for mess
+- View the menu of the mess
+
+
+## Demo
+
+You can view the demo at https://vitapprove.herokuapp.com . Make sure to signup before logging in.
 
 
 
