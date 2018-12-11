@@ -8,7 +8,7 @@ The aim of this project was to collect user data about various services provided
 This project utilizes the following technologies:
 - Node.js with Express
 - Mustache template engine
-- Postgres Databse
+- Postgres Database
 - HTML
 - CSS
 - Javascript and javascript libraries
