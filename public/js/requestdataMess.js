@@ -64,7 +64,7 @@ let graphExpMess = Morris.Bar({
 });
 
 const xhrMess = new XMLHttpRequest;
-const urlMess = "http://localhost:3000/graphMessData";
+const urlMess = "https://vitapprove.herokuapp.com/graphMessData";
 xhrMess.responseType = 'json';
 let graphdataMess;
 
