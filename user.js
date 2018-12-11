@@ -2,11 +2,7 @@ const Sequelize = require('sequelize');
 const bcrypt = require('bcryptjs');
 
 // create a sequelize instance with our local mysql database information.
-const sequelize = new Sequelize('iwpproject', 'root', '',{
-    host     : 'localhost',
-    dialect : 'mysql',
-    "operatorsAliases": false
-});
+const sequelize = new Sequelize('postgres://kyrvyiyfprqzci:d3d92a3996a6d87a1033f254158ccd0fc05516cca4a0385ee5be0a19a77867bd@ec2-54-204-36-249.compute-1.amazonaws.com:5432/d66e83t6rncale');
 
 // setup User model and its fields.
 var User = sequelize.define('users', {
