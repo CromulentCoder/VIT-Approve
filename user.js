@@ -2,10 +2,12 @@ const Sequelize = require('sequelize');
 const bcrypt = require('bcryptjs');
 
 // create a sequelize instance with our local mysql database information.
-const sequelize = new Sequelize('your-database', 'your-username', 'your-password',{
-    host     : 'localhost',
-    dialect : 'mysql',
-});
+// const sequelize = new Sequelize('your-database', 'your-username', 'your-password',{
+//     host     : 'localhost',
+//     dialect : 'mysql',
+// });
+
+const sequelize = new Sequelize(process.env.DATABASE_URL);
 
 // setup User model and its fields.
 var User = sequelize.define('users', {
